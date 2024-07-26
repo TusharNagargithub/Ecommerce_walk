@@ -1,0 +1,48 @@
+<ngb-carousel *ngIf="popularProducts" class="mycaro">
+	<ng-template *ngFor="let item of newImages"  ngbSlide>
+		<div class="picsum-img-wrapper">
+			<!-- <a routerLink="/details/{{item.id}}" > -->
+				<img  style="object-fit: cover; width: 1750px; height: 600px; margin-top: 5px;" src='{{item}}' alt="Random first slide" />
+			<!-- </a> -->
+			<!-- https://images-eu.ssl-images-amazon.com/images/G/31/img22/WLA/2024/BAU/Hero/Unrec/D91435399_WLA-BAU-Unrec-Hero_DesktopTallHero_3000x1200._CB582928607_.jpg -->
+			<!-- https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg?auto=compress&cs=tinysrgb&w=600 -->
+		</div>
+		<div class="carousel-caption" style="background-color: #00000082;">
+			<!-- <h3 >{{item.name}}</h3> --><h3>Get upto 5% back</h3>
+			<!-- <p>{{item.description}}</p> --><p>with NexShop pay ICIC Bank</p>
+			 <h3></h3>
+			 <p></p>
+		</div>
+	</ng-template>
+</ngb-carousel>
+
+<div style="width: 1750px;">
+	<h1 style="text-align: center; ">Trendy Products</h1>
+	<div >
+	  <div style="width: 25%; display: inline-block; box-sizing: border-box; padding: 10px; justify-content: center;" *ngFor="let item of trendyProducts">
+		<div class="product-item" style="border: 1px solid #ccc; padding: 15px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+		  <img src="{{item.image}}" alt="">
+		<div class="product-details">
+		  <h6 class="name-head">{{item.name}}</h6>
+		  <div class="product-price">
+			<h6><strong>Price:</strong>{{item.price}}</h6>
+		  </div>
+		  <div class="product-color">
+			<h6><strong>Color:</strong>{{item.color}}</h6>
+		  </div>
+		</div>
+		<div class="product-footer">
+		  <a routerLink="/details/{{item.id}}" class="btn">View Details</a>
+		  <a routerLink="/payment-form/{{(item.price)}}" class="btn">Buy Now</a>
+		  <!-- <a class="btn" (click)="addCart(item.id)">Add to Cart</a> -->
+		</div>
+		</div>
+	  </div><br>
+	  <div style="text-align: center;">
+		<h5>{{message}}</h5><br>
+	  <button (click)="limitIncrease()"  style="background-color: blue; cursor: pointer; text-align: center; color: white; padding: 10px; border-radius: 10px; ">See more data</button>
+	  </div>
+	</div>
+	
+	
+	</div>

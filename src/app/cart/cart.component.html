@@ -1,0 +1,20 @@
+<div style="margin-left: 200px;">
+<div style="width: 25%; display: inline-block; box-sizing: border-box; padding: 10px; justify-content: center; " *ngFor="let item of mycartproduct">
+    <div class="product-item" style="border: 1px solid #ccc; padding: 15px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+      <img src="{{item.image}}" alt="">
+    <div class="product-details">
+      <h6 class="name-head">{{item.name}}</h6>
+      <div class="product-price">
+        <h6><strong>Price:</strong>{{item.price}}</h6>
+      </div>
+      <div class="product-color">
+        <h6><strong>Color:</strong>{{item.color}}</h6>
+      </div>
+    </div>
+    <div class="product-footer">
+      <a routerLink="/details/{{item.id}}" class="btn">View Details</a>
+      <a routerLink="/payment-form/{{(item.price)}}" class="btn">Buy Now</a>
+     </div>
+    </div>
+  </div> 
+</div>

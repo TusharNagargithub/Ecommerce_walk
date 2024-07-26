@@ -1,0 +1,190 @@
+{
+  "seller": [
+    {
+      "id": "8281",
+      "name": "Tushar Nagar",
+      "password": "123",
+      "email": "tushar@gmail.com"
+    }
+  ],
+  "products": [
+    {
+      "name": "OPPO A3 Pro 5G (Arctic White, 6GB RAM, 128GB Storage",
+      "price": "19,999",
+      "category": "Mobile",
+      "color": "Blue",
+      "description": "DISPLAY :16.94 cm (6.67\"Inch) HD+ LCD 120Hz Ultra Bright Display ,with Screen-to-body ratio: 89.9% .High refresh rate and high brightness for a smooth experience",
+      "image": "https://m.media-amazon.com/images/I/811s3515+XL._AC_UY218_.jpg",
+      "id": "db96"
+    },
+    {
+      "id": "df7e",
+      "name": "Redmi Note 13 5G (Arctic White, 6GB RAM, 128GB Storage) ",
+      "price": "12000",
+      "category": "Mobile",
+      "color": "Voilet Blue",
+      "description": "Camera: 108MP 3X in-sensor zoom AI Triple Camera with 8MP Ultra Wide sensor and 2MP Macro camera| 16MP Front camera\nBattery: 5000 mAh large battery with 33W fast charger in-box and Type-C connectivity",
+      "image": "https://m.media-amazon.com/images/I/71VW8LmqqPL._AC_UY218_.jpg"
+    },
+    {
+      "id": "423b",
+      "name": "Acer Aspire Lite 12th Gen Intel Core i3-1215U Premium Metal Laptop",
+      "price": "15000",
+      "category": "Laptop",
+      "color": "Silver",
+      "description": "Powerful Productivity: 12th Generation Intel Core i3-1215U Dual Core processor delivers unmatched speed and intelligence, enabling impressive creating, productivity, and gaming experiences. With Turbo Boost Technology, get up to 4.4GHz for your high-demand applications. Connectivity Technology: Wi-Fi, Bluetooth, HDMI",
+      "image": "https://m.media-amazon.com/images/I/71czGb00k5L._AC_UY218_.jpg"
+    },
+    {
+      "name": "Lenovo IdeaPad Slim 1 AMD Ryzen 5 5500U 15.6\" HD Thin and Light ",
+      "price": "20000",
+      "category": "Laptop",
+      "color": "Voilet",
+      "description": "Processor: AMD Ryzen 5 5500U | Speed: 2.1GHz (Base) - 4.0GHz (Max) | 6 Cores | 12 Threads\nDisplay: 15.6\" FHD (1920x1080) | TN | 250Nits Brightness | Anti Glare",
+      "image": "https://m.media-amazon.com/images/I/81m7Rhw8fzL._AC_UY218_.jpg",
+      "id": "e7c4"
+    },
+    {
+      "name": "ANCIARY Full Laptop Skin Bubble-Free Laptop",
+      "price": "123",
+      "category": "C",
+      "color": "yellow",
+      "description": "Full Body Laptop Skin (Back Sticker + Mouse Pad Area), Printed on high-quality vinyl\nExtremely high-quality picture with high resolution",
+      "image": "https://m.media-amazon.com/images/I/51GEtS3gecL._AC_SY175_.jpg",
+      "id": "6d7e"
+    },
+    {
+      "id": "6939",
+      "name": "HP Laptop 15s, AMD Ryzen 3 5300U, 15.6-inch ",
+      "price": "123",
+      "category": "c",
+      "color": "blue",
+      "description": "【4-core AMD Ryzen 3 5300U】8 threads and 4MB L3 cache deliver powerful performance and swift responsiveness. The AMD Radeon graphics help you experience crisp visuals with vivid clarity.",
+      "image": "https://m.media-amazon.com/images/I/71-oBEGEnOL._AC_SY175_.jpg"
+    },
+    {
+      "name": "Acer Aspire Lite 12th Gen Intel Core Laptop",
+      "price": "1223",
+      "category": "C",
+      "color": "Green",
+      "description": "Visibly Stunning: Experience sharp details and crisp colors on the 15.6\" Full HD display, 16:9 aspect ratio, ultra-slim design and narrow bezels.",
+      "image": "https://m.media-amazon.com/images/I/71czGb00k5L._AC_SY175_.jpg",
+      "id": "0454"
+    },
+    {
+      "name": "The Gift Kart Redmi Note 13 5G Mobile Phone",
+      "price": "129`",
+      "category": "D",
+      "color": "Blue",
+      "description": "TheGiftKart Cases & Covers fall into some of the most sought-after phone cases & covers in the market. These covers are manufactured with the use of Top-Grade material & technology resulting in products with impeccable finishing & quality.\n",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/515RhR+o55L._AC_UL165_SR165,165_.jpg",
+      "id": "bde6"
+    }
+  ],
+  "users": [
+    {
+      "id": "33fd",
+      "name": "Tushat",
+      "email": "tu@gmail.com",
+      "password": "123"
+    }
+  ],
+  "cart": [
+    {
+      "id": "343c",
+      "name": "Redmi Note 13 5G (Arctic White, 6GB RAM, 128GB Storage) ",
+      "price": "12000",
+      "category": "Mobile",
+      "color": "Voilet Blue",
+      "description": "Camera: 108MP 3X in-sensor zoom AI Triple Camera with 8MP Ultra Wide sensor and 2MP Macro camera| 16MP Front camera\nBattery: 5000 mAh large battery with 33W fast charger in-box and Type-C connectivity",
+      "image": "https://m.media-amazon.com/images/I/71VW8LmqqPL._AC_UY218_.jpg",
+      "quantity": 1,
+      "productId": "df7e",
+      "userId": null
+    },
+    {
+      "id": "2c19",
+      "name": "Redmi Note 13 5G (Arctic White, 6GB RAM, 128GB Storage) ",
+      "price": "12000",
+      "category": "Mobile",
+      "color": "Voilet Blue",
+      "description": "Camera: 108MP 3X in-sensor zoom AI Triple Camera with 8MP Ultra Wide sensor and 2MP Macro camera| 16MP Front camera\nBattery: 5000 mAh large battery with 33W fast charger in-box and Type-C connectivity",
+      "image": "https://m.media-amazon.com/images/I/71VW8LmqqPL._AC_UY218_.jpg",
+      "quantity": 1,
+      "productId": "df7e",
+      "userId": null
+    },
+    {
+      "id": "ca00",
+      "name": "Redmi Note 13 5G (Arctic White, 6GB RAM, 128GB Storage) ",
+      "price": "12000",
+      "category": "Mobile",
+      "color": "Voilet Blue",
+      "description": "Camera: 108MP 3X in-sensor zoom AI Triple Camera with 8MP Ultra Wide sensor and 2MP Macro camera| 16MP Front camera\nBattery: 5000 mAh large battery with 33W fast charger in-box and Type-C connectivity",
+      "image": "https://m.media-amazon.com/images/I/71VW8LmqqPL._AC_UY218_.jpg",
+      "quantity": 1,
+      "productId": "df7e",
+      "userId": null
+    },
+    {
+      "id": "3a35",
+      "name": "Redmi Note 13 5G (Arctic White, 6GB RAM, 128GB Storage) ",
+      "price": "12000",
+      "category": "Mobile",
+      "color": "Voilet Blue",
+      "description": "Camera: 108MP 3X in-sensor zoom AI Triple Camera with 8MP Ultra Wide sensor and 2MP Macro camera| 16MP Front camera\nBattery: 5000 mAh large battery with 33W fast charger in-box and Type-C connectivity",
+      "image": "https://m.media-amazon.com/images/I/71VW8LmqqPL._AC_UY218_.jpg",
+      "quantity": 2,
+      "productId": "df7e",
+      "userId": null
+    },
+    {
+      "id": "dc87",
+      "name": "Redmi Note 13 5G (Arctic White, 6GB RAM, 128GB Storage) ",
+      "price": "12000",
+      "category": "Mobile",
+      "color": "Voilet Blue",
+      "description": "Camera: 108MP 3X in-sensor zoom AI Triple Camera with 8MP Ultra Wide sensor and 2MP Macro camera| 16MP Front camera\nBattery: 5000 mAh large battery with 33W fast charger in-box and Type-C connectivity",
+      "image": "https://m.media-amazon.com/images/I/71VW8LmqqPL._AC_UY218_.jpg",
+      "quantity": 1,
+      "productId": "df7e",
+      "userId": null
+    },
+    {
+      "id": "0f68",
+      "name": "Redmi Note 13 5G (Arctic White, 6GB RAM, 128GB Storage) ",
+      "price": "12000",
+      "category": "Mobile",
+      "color": "Voilet Blue",
+      "description": "Camera: 108MP 3X in-sensor zoom AI Triple Camera with 8MP Ultra Wide sensor and 2MP Macro camera| 16MP Front camera\nBattery: 5000 mAh large battery with 33W fast charger in-box and Type-C connectivity",
+      "image": "https://m.media-amazon.com/images/I/71VW8LmqqPL._AC_UY218_.jpg",
+      "quantity": 1,
+      "productId": "df7e",
+      "userId": null
+    },
+    {
+      "id": "6b9a",
+      "name": "OPPO A3 Pro 5G (Arctic White, 6GB RAM, 128GB Storage",
+      "price": "19,999",
+      "category": "Mobile",
+      "color": "Blue",
+      "description": "DISPLAY :16.94 cm (6.67\"Inch) HD+ LCD 120Hz Ultra Bright Display ,with Screen-to-body ratio: 89.9% .High refresh rate and high brightness for a smooth experience",
+      "image": "https://m.media-amazon.com/images/I/811s3515+XL._AC_UY218_.jpg",
+      "quantity": 2,
+      "productId": "db96",
+      "userId": null
+    },
+    {
+      "id": "24fc",
+      "name": "Redmi Note 13 5G (Arctic White, 6GB RAM, 128GB Storage) ",
+      "price": "12000",
+      "category": "Mobile",
+      "color": "Voilet Blue",
+      "description": "Camera: 108MP 3X in-sensor zoom AI Triple Camera with 8MP Ultra Wide sensor and 2MP Macro camera| 16MP Front camera\nBattery: 5000 mAh large battery with 33W fast charger in-box and Type-C connectivity",
+      "image": "https://m.media-amazon.com/images/I/71VW8LmqqPL._AC_UY218_.jpg",
+      "quantity": 1,
+      "productId": "df7e",
+      "userId": null
+    }
+  ]
+}

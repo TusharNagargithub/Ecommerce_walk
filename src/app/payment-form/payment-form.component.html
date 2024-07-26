@@ -1,0 +1,30 @@
+<div class="payment-form-container" >
+
+    <!-- (ngSubmit)="submit(addProduct.value) -->
+    <form class="payment-form" #paymentData="ngForm" (ngSubmit)="checkSubmit(paymentData)">
+      <div class="form-group">
+        <label for="cardNumber">Card Number</label>
+        <input id="cardNumber" type="text" name="cardnumber" ngModel />
+      </div>
+      <div class="form-group">
+        <label for="cardName">Card Name</label>
+        <input id="cardName" type="text" name="cardname" ngModel required/>
+      </div>
+      <div class="form-group">
+        <label for="expiryDate">Expiry Date</label>
+        <input id="expiryDate" type="text" name="expirydate" placeholder="MM/YY" ngModel required/>
+      </div>
+      <div class="form-group">
+        <label for="cvv">CVV</label>
+        <input id="cvv" type="text" name="cvvv" ngModel required/>
+      </div>
+      <!-- <button type="submit">submit</button> -->
+      <!-- <div style="display: flex;">
+      <h6>Price is: &nbsp;</h6> <p>{{price}}</p>
+      </div>
+       -->
+       <button type="submit" class="submit-button">Pay Now</button>
+    </form>
+  </div>
+  
+  

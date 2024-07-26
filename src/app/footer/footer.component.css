@@ -1,0 +1,20 @@
+footer {
+
+    background-color: #343a40; /* Dark background */
+    color: white; /* White text */
+    width: 1750px;
+    position: relative;
+    justify-content: center;
+    bottom: 0;
+    padding: 20px 0;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  

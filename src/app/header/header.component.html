@@ -1,0 +1,32 @@
+<nav class="nav">
+    <h1><a routerLink="/">NexShop <img width="60px" style="margin-top: -10px;" src="https://img.freepik.com/premium-photo/letter-logo-with-colorful-rainbow-effect-business-company-letter-company-business-i_912214-11735.jpg?ga=GA1.1.165973006.1719693152&semt=ais_user" alt="E-Comm Logo" class="logo"></a></h1>
+    <div *ngIf="menuType==='default'" class="nav-search">
+        <input #searchInput type="text" (keyup)="searchProduct($event)" (blur)="hidesearch()" placeholder="search for products" style="width: 100%; height: 50px; padding: 10px;   box-sizing: border-box; padding-left: 40px; color: #999;">
+        <button (click)="submitSearch(searchInput.value)" style="background-color: orange; height: 50px; color: black;">Search</button>
+        <ul class="suggested-search" *ngIf="searchResult">
+            <li *ngFor="let item of searchResult"><a>{{item.name}}Hekk</a>
+              <a (mousedown)="redirectToDetails(item.id)" >{{item.name}}</a>
+            </li>
+        </ul>
+    </div>
+    <div [ngSwitch]="menuType"> 
+    <ul *ngSwitchCase="'default'" class="li">
+        <li><a routerLink="seller-auth">Seller &nbsp; &nbsp; &nbsp;</a></li>
+        <li><a routerLink="">Home &nbsp; &nbsp; &nbsp;</a></li>
+        <li><a routerLink="user-auth">Login/Sign-up &nbsp; &nbsp; &nbsp;</a></li>
+        <li><a routerLink="cart">Cart {{cartItems}} &nbsp; &nbsp; &nbsp;</a></li>
+    </ul>
+    <ul *ngSwitchCase="'user'" class="li">
+        <li><a routerLink="seller-auth">Seller &nbsp; &nbsp;</a></li>
+        <li><a routerLink="">{{userName | titlecase}} &nbsp; &nbsp;</a></li>
+        <li><a (click)="userLogout()">Logout &nbsp; &nbsp;</a></li>
+        <li><a href="#">Cart(0) &nbsp; &nbsp;</a></li>
+    </ul>
+    <ul *ngSwitchCase="'seller'" class="li">
+        <li><a routerLink="seller-auth">Product List &nbsp; &nbsp;</a></li>
+        <li><a routerLink="seller-add-product">Add Product &nbsp; &nbsp;</a></li>
+        <li><a (click)="logout()">Logout &nbsp; &nbsp;</a></li>
+        <li><a href="#">{{sellerName}} &nbsp; &nbsp;</a></li>
+    </ul>
+    </div>
+</nav>
